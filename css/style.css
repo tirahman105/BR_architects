@@ -46,6 +46,10 @@
 	top: 55%;
 	left: 42%;
 }
+
+
+
+
 .hero .left_hero img{
 	width: 100%;
 	height: auto;
@@ -53,10 +57,27 @@
 .top_text h1{
 	color: white;
 }
-.top_text h1 span{
+.top_text .br{
 	background-color: #0A0A0AC6;
 	color: white;
 	padding: 7px;
+}
+.top_text .br2{
+	color: white;
+}
+
+
+@media only screen and (max-width: 720px) {
+ .br2 {
+   display: none;
+
+  }
+  .br{
+  	font-size: 30px;
+  	background-color: #0A0A0AC6;
+	color: white;
+	padding: 10px; 
+}
 }
 
 /*project section*/
@@ -131,7 +152,15 @@ hr{
 	padding: 10px;
 
 }
+ 
+ @media only screen and (max-width: 720px) {
+  #team {
+    flex-direction: column;
+    text-align: center;
 
+  }
+
+}
 
 #team .team_img img{
 	
@@ -159,6 +188,15 @@ height: 200px;
 	width: 93%;
 	padding: 15px;
 }
+
+@media only screen and (max-width: 720px) {
+  #contact {
+    width: 90%;
+
+  }
+
+}
+
 #contact h1, p{
 	padding: 10px;
 }
