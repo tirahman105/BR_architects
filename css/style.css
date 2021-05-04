@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/*header section*/
+
+.nav{
+	display: flex;
+	color: #686868FF;
+	height: 50px;
+	background-color: white;
+    box-shadow: 0 10px 6px -6px #777;
+    z-index: 1;
+
+}
+.left_logo{
+	flex: 1;
+	padding: 10px 20px;
+}
+.nav .left_logo h1{
+	font-size: 18px;
+	padding-top: 5px;
+}
+.nav .left_logo span{
+	color: black;
+}
+.rt_menu li{
+	display: inline-block;
+	padding: 20px;
+
+}
+.rt_menu li a{
+	text-decoration: none;
+	color: #686868FF;
+}
+
+.hero{
+	margin: 0;
+	z-index: 0;
+}
+
+.top_text{
+	position: absolute;
+	top: 55%;
+	left: 42%;
+}
+.hero .left_hero img{
+	width: 100%;
+	height: auto;
+}
+.top_text h1{
+	color: white;
+}
+.top_text h1 span{
+	background-color: #0A0A0AC6;
+	color: white;
+	padding: 7px;
+}
+
+/*project section*/
+#project{
+	margin: 20px;
+}
+
+#project .project_text{
+	margin: 30px 15px 15px 15px;
+}
+
+hr{
+	border-top: 1px solid #66666680;
+}
+.project{
+	display: flex;
+	padding: 15px;
+	margin-top: 10px;
+	/*flex-direction: column;*/
+	align-items: center;
+}
+.project .project_sec{
+	flex: 1;
+	padding: 0px;
+	margin: 8px;
+	position: relative;
+
+}
+@media only screen and (max-width: 720px) {
+  .project {
+    flex-direction: column;
+
+  }
+
+}
+
+
+.project .project_sec h4{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #232323FF;
+	color: white;
+	padding: 8px 16px;
+	margin: 0;
+}
+
+.project .project_sec img{
+	width: 280px;
+	height: 200px;
+}
+
+
+/*about section*/
+
+#about{
+	margin: 0px 20px 20px 20px;
+	padding-left: 10px;
+}
+#about .about_head{
+	padding: 0px 20px 20px 15px;
+}
+#about .about_text{
+	padding: 5px 20px 20px 20px;
+}
+
+#team{
+	display: flex;
+}
+#team .team_img{
+	flex: 1;
+	padding: 10px;
+
+}
+
+
+#team .team_img img{
+	
+width: 280px;
+height: 200px;
+}
+
+#team .team_img h4 , h6 , p{
+
+	margin-top: 10px;
+	
+}
+
+#team button{
+	margin-top: 10px;
+	width: 100%;
+	padding: 8px;
+	border-style: none;
+}
+
+
+/*contact form*/
+
+#contact{
+	width: 93%;
+	padding: 15px;
+}
+#contact h1, p{
+	padding: 10px;
+}
+#contact form input{
+	width: 100%;
+	padding: 12px;
+	margin: 6px 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+#contact form input[type=submit]{
+	background-color: black;
+	color: white;
+	width: 150px;
+	border-radius: 0px;
+}
+
+/*footer section*/
+#footer_img{
+	padding: 15px;
+}
+
+#footer_img img{
+
+	width: 100%;
+	height: auto;
+
+}
+
+footer{
+	background: black;
+	color: white;
+	text-align: center;
+}
